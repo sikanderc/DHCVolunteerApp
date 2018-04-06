@@ -8,10 +8,10 @@ export default class Homepage extends Component {
     return (
       <View style={{flex: 1, alignItems:"center"}}>
         <Image style={{padding: 30, flex: 3}} source={DHClogo} aspectRatio=".9" resizeMode="contain" />
-        <Text style={{flex: 1, padding: 10, fontSize: 25, textAlign: "center"}}>
+        <Text style={{flex: 1, padding: 10, fontSize: 25, textAlign: "center", color: 'white', fontWeight: 'bold'}}>
           Doctors for Healthy Communities
         </Text>
-        <Text style={{flex: 1, fontSize: 20, textAlign: "center"}}>
+        <Text style={{flex: 1, fontSize: 20, textAlign: "center", color: 'white', fontWeight: 'bold'}}>
           Volunteer Log
         </Text>
         <Button style={{flex: 2, padding: 10}} color="#e86386" title="Login/Sign up"
